@@ -1,12 +1,12 @@
 class Car
 {
     // Model,  Make, CurrentSpeed, EngineRunning
-    string Model { get; set; }
+    public string Model { get; set; }
 
-    string Make { get; set; }
+    public string Make { get; set; }
 
-    int CurrentSpeed { get; set; }
+    public int CurrentSpeed { get; }
 
-    bool EngineRunning { get; set; }
+    public bool EngineRunning { get; }
 
 }
