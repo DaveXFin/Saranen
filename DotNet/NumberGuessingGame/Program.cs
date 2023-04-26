@@ -1,9 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// coded along with Jani Järvinen
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Welcome to the Number Guessing Game!");
+
+
 
 // Generates a random number between 1 and 20
 int correct = Random.Shared.Next(1, 21);
 Console.WriteLine(correct);
+
 
 
 //for loop to tracks the number fo guesses
@@ -19,6 +24,7 @@ for (int index = 0; index < 3; index++)
     {
         Console.WriteLine("You guessed the correct value! You win the Game!");
         break;
+
     }
     else if (guess < correct)
     {
@@ -34,4 +40,7 @@ for (int index = 0; index < 3; index++)
 
 Console.WriteLine("Game ended");
 
+//Displays high score
+Scoreboard HighScore = new();
 
+HighScore.DisplayScoreboard();
