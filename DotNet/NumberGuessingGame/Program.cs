@@ -9,7 +9,7 @@ Console.WriteLine("Welcome to the Number Guessing Game!");
 int correct = Random.Shared.Next(1, 21);
 Console.WriteLine(correct);
 
-
+Scoreboard highScore = new();
 
 //for loop to tracks the number fo guesses
 for (int index = 0; index < 3; index++)
@@ -23,6 +23,7 @@ for (int index = 0; index < 3; index++)
     if (guess == correct)
     {
         Console.WriteLine("You guessed the correct value! You win the Game!");
+        highScore.RecordPlayerScore(index + 1);
         break;
 
     }
@@ -41,6 +42,4 @@ for (int index = 0; index < 3; index++)
 Console.WriteLine("Game ended");
 
 //Displays high score
-Scoreboard HighScore = new();
-
-HighScore.DisplayScoreboard();
+highScore.DisplayScoreboard();
