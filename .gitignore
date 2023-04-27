@@ -10,3 +10,6 @@ DotNet/FileAccess/obj
 DotNet/FileAccess/bin
 DotNet/DateAndTime/obj
 DotNet/DateAndTime/bin
+DotNet/DateAndTime/.vscode
+DotNet/ExceptionHandling/.vscode
+DotNet/ExceptionHandling/obj
