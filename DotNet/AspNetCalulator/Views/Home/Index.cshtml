@@ -2,18 +2,6 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-  <body>
-    <h1>Additon calculator</h1>
-    <p>Input two values to find the sum.</p>
-
-        <p><input type="number" id="firstnumber"></p>
-        <p><input type="number" id="secondnumber"></p>
-
-    <button onclick="sumOfTwoValues()">Calculate</button>
-    <p id="word"></p>
-  </body>
-</div>
 
 @section Scripts
 {
@@ -25,8 +13,29 @@
         
         
         const sum = parseInt(firstnumber) + parseInt(secondnumber);
-        alert("The sum of the two value is" + sum)
+        alert("The sum of the two value is " + sum)
         
         }
     </script>
 }
+
+
+
+<div class="text-center">
+  <body>
+    <h1>Additon calculator</h1>
+    <p>Input two values to find the sum.</p>
+
+    <div class="input-group">
+        <span class="input-group-text">First Number</span>
+        <input type="number" aria-label="First Number" class="form-control" id="firstnumber">
+    </div>
+        <div class="input-group">
+        <span class="input-group-text">Second Number</span>
+        <input type="number" aria-label="First Number" class="form-control" id="secondnumber">
+    </div>
+
+    <button type="button" onclick="sumOfTwoValues()" class="btn btn-primary">Calculate</button>
+    <p id="word"></p>
+  </body>
+</div>
