@@ -3,6 +3,30 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+  <body>
+    <h1>Additon calculator</h1>
+    <p>Input two values to find the sum.</p>
+
+        <p><input type="number" id="firstnumber"></p>
+        <p><input type="number" id="secondnumber"></p>
+
+    <button onclick="sumOfTwoValues()">Calculate</button>
+    <p id="word"></p>
+  </body>
 </div>
+
+@section Scripts
+{
+    <script>
+        function sumOfTwoValues() {
+        
+        const firstnumber = document.getElementById("firstnumber").value;
+        const secondnumber = document.getElementById("secondnumber").value;
+        
+        
+        const sum = parseInt(firstnumber) + parseInt(secondnumber);
+        alert("The sum of the two value is" + sum)
+        
+        }
+    </script>
+}
