@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function sumOfTwoValues() {
+        
+        const firstnumber = document.getElementById("firstnumber").value;
+        const secondnumber = document.getElementById("secondnumber").value;
+       
+        
+        const sum = parseInt(firstnumber) + parseInt(secondnumber);
+        alert(sum)
+        
+      }
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Additon calculator</h1>
+    <p>Input two values to find the sum.</p>
+
+        <p><input type="number" id="firstnumber"></p>
+        <p><input type="number" id="secondnumber"></p>
+
+    <button onclick="sumOfTwoValues()">Calculate</button>
+    <p id="word"></p>
+  </body>
+</html>
