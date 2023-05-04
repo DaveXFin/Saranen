@@ -1,0 +1,25 @@
+
+<p><input type="number" @bind="firstNumber"></p>
+<p><input type="number" @bind="secondNumber"></p>
+
+<button @onclick="Calculate">Calculate</button>
+
+<h4>@calculationResult</h4>
+
+@code {
+    private string calculationResult ="(empty)";
+ 
+    private string firstNumber = "";
+    private string secondNumber = "";
+
+
+
+    private void Calculate()
+    {
+
+        int result = int.Parse(firstNumber) + int.Parse(firstNumber);
+
+        calculationResult = result.ToString();
+
+    }
+}

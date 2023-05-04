@@ -19,10 +19,4 @@ DotNet/AspNetCalulator/obj
 DotNet/AspNetCalulator/bin
 DotNet/BlazorHelloWorld/obj
 DotNet/BlazorHelloWorld/.vscode
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/BlazorHelloWorld.dll
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/BlazorHelloWorld.pdb
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/wwwroot/_framework/BlazorHelloWorld.dll
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/wwwroot/_framework/BlazorHelloWorld.dll.gz
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/wwwroot/_framework/BlazorHelloWorld.pdb
-DotNet/BlazorHelloWorld/bin/Debug/net7.0/wwwroot/_framework/BlazorHelloWorld.pdb.gz
+DotNet/BlazorHelloWorld/bin
