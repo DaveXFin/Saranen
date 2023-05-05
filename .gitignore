@@ -17,3 +17,7 @@ DotNet/ExceptionHandling/bin
 DotNet/AspNetCalulator/.vscode
 DotNet/AspNetCalulator/obj
 DotNet/AspNetCalulator/bin
+/DotNet/LinqDemo/LinqDemo/bin/Debug/net7.0
+/DotNet/LinqDemo/LinqDemo/obj
+/.vs
+/DotNet/LinqDemo/.vs/LinqDemo
