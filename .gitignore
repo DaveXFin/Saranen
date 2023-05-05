@@ -21,3 +21,9 @@ DotNet/AspNetCalulator/bin
 /DotNet/LinqDemo/LinqDemo/obj
 /.vs
 /DotNet/LinqDemo/.vs/LinqDemo
+DotNet/AspNetCalulator/bin
+DotNet/BlazorHelloWorld/obj
+DotNet/BlazorHelloWorld/.vscode
+DotNet/BlazorHelloWorld/bin
+DotNet/LinqQuery/obj
+DotNet/LinqQuery/.vscode
