@@ -25,5 +25,9 @@ DotNet/AspNetCalulator/bin
 DotNet/BlazorHelloWorld/obj
 DotNet/BlazorHelloWorld/.vscode
 DotNet/BlazorHelloWorld/bin
+DotNet/LinqQuery/bin
 DotNet/LinqQuery/obj
 DotNet/LinqQuery/.vscode
+DotNet/ToDoApi/obj
+DotNet/ToDoApi/.vscode
+DotNet/ToDoApi/bin
