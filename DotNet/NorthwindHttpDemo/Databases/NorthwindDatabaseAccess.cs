@@ -7,7 +7,7 @@ public class NorthwindDataAccess
     public List<string> GetAllCustomers()
     {
         // open connection to the Northwind database
-        string connectionString = "Server=localhost\\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;";
+        string connectionString = "Server=RUBBERDUCK\\SQLEXPRESS;Database=northwind;Trusted_Connection=True;";
         SqlConnection conn = new(connectionString);
         conn.Open();
 

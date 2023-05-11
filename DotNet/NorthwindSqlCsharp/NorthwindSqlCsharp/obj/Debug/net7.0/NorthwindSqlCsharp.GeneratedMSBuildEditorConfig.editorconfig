@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NorthwindSqlCsharp
-build_property.ProjectDir = C:\Users\David\source\repos\Saranen\DotNet\NorthwindSqlCsharp\NorthwindSqlCsharp\
+build_property.ProjectDir = c:\Users\David\Desktop\main\Saranen\DotNet\NorthwindSqlCsharp\NorthwindSqlCsharp\
