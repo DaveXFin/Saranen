@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: "MyPolicy",
                       policy  =>
                       {
-                          policy.WithOrigins();
+                          policy.AllowAnyOrigin();
                       });
 });
 
